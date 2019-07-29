@@ -65,7 +65,31 @@ class _MyHomePageState extends State<MyHomePage> {
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
         child: Card(
-          child: Text("Card"),
+          child: Row(
+            children: <Widget> [
+              Column(
+                children: <Widget>[
+                  Text("FIERCE"),
+                  Text("with Kayla"),
+                  // Rating bar
+                  //LinearProgressIndicator(),
+                  Text("Weight Loss"),
+                  //LinearProgressIndicator(
+                  //  valueColor: AlwaysStoppedAnimation<Color>(Colors.pink,),
+                  //  value: 0.8,
+                  //),
+                  Text("Muscle"),
+                  //LinearProgressIndicator(),
+                  Text("Strength"),
+                  //LinearProgressIndicator(),
+                  Text("Flexibility"),
+                  // Chips
+                ],
+              ),
+              Image.asset(
+                  'assets/images/kayla.png')
+            ],
+          )
         ),
       ),
     );

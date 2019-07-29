@@ -45,6 +45,8 @@ flutter:
     - assets/images/sweat_drop.png
     - assets/images/sweat_drop_filled.png
     - assets/images/sweat_logo.png
+    # Remove this.
+    - assets/images/kayla.png
 
   # Font assets.
   fonts:
